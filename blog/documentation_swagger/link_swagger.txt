@@ -1,0 +1,31 @@
+Interface graphique: http://localhost:8080/swagger-ui/index.html
+
+-Requête GET pour un getArticleById
+http://localhost:8080/swagger-ui/index.html#/article-controller/getArticleById
+
+-Requête PUT pour un updateArticle
+http://localhost:8080/swagger-ui/index.html#/article-controller/updateArticle
+
+-Requête DELETE pour un deleteArticle
+http://localhost:8080/swagger-ui/index.html#/article-controller/deleteArticle
+
+-Requête GET pour un getAllArticles
+http://localhost:8080/swagger-ui/index.html#/article-controller/getAllArticles
+
+-Requête POST pour un createArticle
+http://localhost:8080/swagger-ui/index.html#/article-controller/createArticle
+
+-Requête POST pour un addComment
+http://localhost:8080/swagger-ui/index.html#/article-controller/addComment
+
+-Requête GET pour un getCommentsByArticle
+http://localhost:8080/swagger-ui/index.html#/comment-controller/getCommentsByArticle
+
+-Requête POST pour un createComment
+http://localhost:8080/swagger-ui/index.html#/comment-controller/createComment
+
+-Requête GET pour un getCommentById
+http://localhost:8080/swagger-ui/index.html#/comment-controller/getCommentById
+
+-Requête DELETE pour un deleteComment
+http://localhost:8080/swagger-ui/index.html#/comment-controller/deleteComment
