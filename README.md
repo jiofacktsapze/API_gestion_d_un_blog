@@ -39,18 +39,16 @@ Ou (si redirigé automatiquement) :
 
 👉 [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
 
-📮 Points de terminaison API
-Articles
-Méthode	    URL            	                Description
-POST	       /articles        	             Créer un article
-GET	       /articles    	                   Récupérer tous les articles
-GET	       /articles/{id}	                Récupérer un article spécifique
-PUT	       /articles/{id}	                Mettre à jour un article
-DELETE	    /articles/{id}	                Supprimer un article
+📮 Points de terminaison API:
+Articles:
+-POST	       /articles        	             (Créer un article)
+-GET	       /articles    	                   (Récupérer tous les articles)
+-GET	       /articles/{id}	                (Récupérer un article spécifique)
+-PUT	       /articles/{id}	                (Mettre à jour un article)
+-DELETE	    /articles/{id}	                (Supprimer un article)
 
-Commentaires
-Méthode	  URL	                               Description
-POST	    /article/{articleId}/comments	    Ajouter un commentaire à un article
-GET	    /article/{articleId}/comments	    Récupérer les commentaires d’un article
-GET       /comments/{id}                      Rechercher un commentaire spécifique 
-DELETE    /comments/{id}                      Supprimer un commentaire
+Comments:
+-POST	    /article/{articleId}/comments	    (Ajouter un commentaire à un article)
+-GET	    /article/{articleId}/comments	    (Récupérer les commentaires d’un article)
+-GET       /comments/{id}                      (Rechercher un commentaire spécifique) 
+-DELETE    /comments/{id}                      (Supprimer un commentaire)
